@@ -5,7 +5,7 @@ average_grades = [sum(grades[0])/len(grades[0]), sum(grades[1])/len(grades[1]), 
 students = sorted (students)
 
 # 1-й способ
-dict1 = dict(zip(students, average_grades,))
+dict1 = dict(zip(students, average_grades))
 print(dict1)
 
 # 2-й способ
